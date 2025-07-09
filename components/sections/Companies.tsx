@@ -6,7 +6,7 @@ import spotify from "../../src/assets/spotify.png";
 const Companies = () => {
   return (
     <div
-      className='px-48 flex items-center flex-col gap-16 mt-24 mb-48
+      className='px-48 flex items-center flex-col gap-16  mb-48
     '
     >
       <div className='font-semibold text-gray-600'>

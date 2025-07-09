@@ -1,10 +1,10 @@
-import hero from "../../src/assets/hero.svg";
+import hero from "../../src/assets/hero.png";
 import Button from "../elements/Button";
 
 const Hero = () => {
   return (
-    <div className='flex px-48 h-[80dvh] items-center'>
-      <div className='w-1/2 flexflex-col'>
+    <div className='grid grid-cols-2 px-48 h-[80dvh] items-center'>
+      <div className=' flexflex-col'>
         <div className='text-7xl font-semibold'>
           Sell smarter. <br />
           Grow faster.
@@ -21,8 +21,8 @@ const Hero = () => {
           </Button>
         </div>
       </div>
-      <div className='w-1/2 flex justify-center'>
-        <img src={hero} className='w-auto h-[600px]' />
+      <div className='flex justify-end'>
+        <img src={hero} className='w-auto' />
       </div>
     </div>
   );
