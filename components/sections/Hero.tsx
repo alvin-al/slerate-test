@@ -10,7 +10,7 @@ const Hero = () => {
           Grow faster.
         </div>
         <div className='mt-8 text-lg text-gray-600'>
-          Slerate helps you increase sales and conversions with data-driven
+          Slerate helps you boost the sales and conversions with data-driven
           strategies. <br />
           No guesswork — just clear, measurable results. <br />
           Start boosting your growth today.

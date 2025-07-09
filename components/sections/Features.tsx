@@ -46,8 +46,9 @@ const Features = () => {
       id='features'
     >
       <div className='font-semibold text-gray-600 mb-4'>Our Program</div>
-      <div className='font-semibold text-3xl text-center mb-12'>
-        Building Your <br /> Modern Growth Foundation
+      <div className='font-semibold text-4xl text-center mb-12 leading-tight'>
+        Blueprint for <br />
+        Your Next Sales Boost
       </div>
       <div className='flex gap-16'>
         {featuresData.map((item) => (

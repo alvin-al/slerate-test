@@ -15,7 +15,7 @@ const CTASection = () => {
             <p className='text-xl mb-16 text-gray-600'>
               From unpredictable marketing spend to a reliable revenue engine.{" "}
               <br />
-              Let's build yours.
+              Let's build your sales boost.
             </p>
           </div>
           <div className='mt-auto'>
