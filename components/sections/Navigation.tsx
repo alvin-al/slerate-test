@@ -37,7 +37,7 @@ const Navigation = () => {
         </ul>
       </div>
       <div>
-        <Button href='/' type='line'>
+        <Button href='#contact' type='line'>
           Get started
         </Button>
       </div>

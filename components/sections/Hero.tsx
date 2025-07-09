@@ -16,7 +16,7 @@ const Hero = () => {
           Start boosting your growth today.
         </div>
         <div className='mt-12 '>
-          <Button href='/' type='fill'>
+          <Button href='#contact' type='fill'>
             Get started now!
           </Button>
         </div>
