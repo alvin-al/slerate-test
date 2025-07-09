@@ -20,24 +20,24 @@ const resources = {
 
 const Footer = () => {
   return (
-    <div className='h-96 bg-blue-950 px-48 py-16 grid grid-cols-2'>
-      <div className='flex flex-col h-full justify-between'>
+    <div className='h-fit md:h-96 bg-blue-950 lg:px-28 p-4 2xl:px-48 py-16 gap-y-20 grid md:grid-cols-2'>
+      <div className='flex flex-col h-full justify-between order-1 md:order-0'>
         <div>
-          <img src={logo} className='mb-4' />
-          <p className='w-[600px] text-gray-300 font-light'>
+          <img src={logo} className='mb-8 md:mb-4' />
+          <p className='xl:pr-36 xl:w-[600px] text-gray-300 font-light'>
             Growth accelerates with innovation. Businesses today need the right
             strategies, technologies, people and purpose to scale.Growth
             accelerates with innovation. Businesses today need the right
             strategies, technologies, people and purpose to scale.
           </p>
         </div>
-        <div>
+        <div className='mt-8 '>
           <p className='text-white'>
             2025© Slerate. All rights reserved by Company
           </p>
         </div>
       </div>
-      <div className='pl-16 grid grid-cols-3'>
+      <div className='md:pl-16 grid gap-y-12  md:grid-cols-3'>
         <FooterLinks title={menuList.title}>
           {menuList.list.map((item, index) => (
             <FooterLinksContent link={item.link} key={index}>

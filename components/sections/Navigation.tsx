@@ -19,13 +19,13 @@ const Navigation = () => {
   ];
 
   return (
-    <div className='w-full border-b-2 border-gray-300 h-20 px-48 flex items-center justify-between'>
+    <div className='w-full border-b-2 border-gray-300 h-20 px-4 lg:px-28 2xl:px-48 flex items-center justify-between'>
       <div>
         <a href='/'>
-          <img src={logo} className='h-12 w-fit' />
+          <img src={logo} className='h-12 xl:h-12 xl:w-fit' />
         </a>
       </div>
-      <div>
+      <div className='hidden md:inline-block'>
         <ul className='flex gap-12 text-base font-medium '>
           {menu.map((item) => (
             <a href={item.link}>

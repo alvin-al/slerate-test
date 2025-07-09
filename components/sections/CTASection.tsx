@@ -3,11 +3,14 @@ import CTAImage from "../../src/assets/CTA.png";
 
 const CTASection = () => {
   return (
-    <div className='px-48 mb-48 scroll-mt-48' id='contact'>
-      <div className='grid grid-cols-2 bg-amber-200  rounded-2xl'>
-        <div className='p-16 h-full'>
+    <div
+      className='px-4 lg:px-28 2xl:px-48 mb-24 2xl:mb-48 scroll-mt-48'
+      id='contact'
+    >
+      <div className='grid md:grid-cols-2 bg-amber-200 rounded-2xl'>
+        <div className='px-8 py-12 xl:p-16 h-full mb-8 md:mb-0'>
           <div>
-            <p className='text-4xl font-semibold text-blue-950 mb-4'>
+            <p className='text-6xl font-semibold text-blue-950 mb-8'>
               Ready to get started?
             </p>
           </div>
@@ -24,8 +27,8 @@ const CTASection = () => {
             </Button>
           </div>
         </div>
-        <div className='flex justify-center'>
-          <img src={CTAImage} className='overflow-auto' />
+        <div className='flex justify-center self-end'>
+          <img src={CTAImage} />
         </div>
       </div>
     </div>

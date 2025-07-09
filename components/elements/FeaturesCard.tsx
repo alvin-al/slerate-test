@@ -57,7 +57,7 @@ const FeaturesCard = ({ bgColor = "#d6d6d6", children }: FeaturesCardProps) => {
       style={{
         backgroundColor: bgColor,
       }}
-      className={`w-[370px] min-h-[500px] p-6 rounded-md gap-4 flex flex-col `}
+      className={`w-[370px] lg:w-[300px] xl:w-[370px] min-h-[500px] p-6 rounded-md gap-4 flex flex-col `}
     >
       {children}
     </div>

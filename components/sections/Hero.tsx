@@ -3,9 +3,9 @@ import Button from "../elements/Button";
 
 const Hero = () => {
   return (
-    <div className='grid grid-cols-2 px-48 h-[80dvh] items-center'>
-      <div className=' flexflex-col'>
-        <div className='text-7xl font-semibold'>
+    <div className='grid pt-8 xl:pt-0 md:grid-cols-2 px-4 lg:px-28 2xl:px-48 lg:h-[75vh] items-center'>
+      <div className='order-1 md:order-0 lg:order-0 mt-8 md:mt-0'>
+        <div className='text-5xl xl:text-6xl 2xl:text-7xl font-semibold'>
           Sell smarter. <br />
           Grow faster.
         </div>
@@ -15,13 +15,13 @@ const Hero = () => {
           No guesswork — just clear, measurable results. <br />
           Start boosting your growth today.
         </div>
-        <div className='mt-40'>
+        <div className='mt-12 '>
           <Button href='/' type='fill'>
             Get started now!
           </Button>
         </div>
       </div>
-      <div className='flex justify-end'>
+      <div className='flex  md:justify-end'>
         <img src={hero} className='w-auto' />
       </div>
     </div>

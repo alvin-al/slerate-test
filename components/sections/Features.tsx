@@ -42,15 +42,15 @@ const featuresData: FeaturesDataType[] = [
 const Features = () => {
   return (
     <div
-      className='px-48 flex items-center flex-col mb-56 scroll-mt-24'
+      className='px-4  2xl:px-48 flex items-center flex-col mb-32 scroll-mt-24'
       id='features'
     >
-      <div className='font-semibold text-gray-600 mb-4'>Our Program</div>
-      <div className='font-semibold text-4xl text-center mb-12 leading-tight'>
+      <div className='font-semibold text-gray-600 mb-2'>Our Program</div>
+      <div className='font-semibold text-4xl text-center mb-8 leading-tight'>
         Blueprint for <br />
         Your Next Sales Boost
       </div>
-      <div className='flex gap-16'>
+      <div className='grid md:grid-cols-3 gap-8 xl:gap-16'>
         {featuresData.map((item) => (
           <FeaturesCard bgColor={item.cardColor}>
             <FeaturesImage>{item.thumbnail}</FeaturesImage>
