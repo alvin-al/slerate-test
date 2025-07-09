@@ -7,6 +7,14 @@ This is a landing page for a fictional product called “Slerate Sales Boost.”
 
 
 
+----
+
+**Figma Design**
+<img width="1440" alt="Screenshot 2025-07-09 at 21 48 21" src="https://github.com/user-attachments/assets/07e2c6f6-215b-4251-999d-d742c2b2bba5" />
+
+----
+
+
 **Tech Stack**
 I use this stack for this project:
 - React JS -> Frontend web framework. I chose React because React can be scaled up and is easy to maintain. I would pick Next.js, but I think it is overengineering for a landing page.
@@ -14,7 +22,8 @@ I use this stack for this project:
 - Tailwind CSS -> Styling framework. With tailwind, I can style it more easily and still beautiful.
 - Vercel -> Web hosting. For deploying the Slerate website for free and just connect it to GitHub to deploy.
 - Github -> Version control. I use GitHub to make sure I save all my progress, can share on another device, and collaborate.
-
+- Figma -> Creating design. I usualy make a design before develop the website for make it faster than just go to code.
+----
 **Key Takeaways**
 1. I learn how to make every element meaningful. Not only aesthetic, but useful too for the user.
 2. How to write clean code. My code is not clean enough, but I am  trying to make my code readable and can be read by other people.
