@@ -12,7 +12,7 @@ const Button = ({ children, href, type = "line" }: ButtonTypes) => {
     if (type === "fill") {
       return `${base} bg-blue-950 text-white hover:bg-blue-800 border-2 border-blue-950 hover:border-blue-800`;
     } else {
-      return `${base} bg-transparent text-blue-950 border-2 border-blue-950 hover:bg-blue-950 hover:text-white`;
+      return `${base} bg-transparent text-blue-950 border-2 border-blue-950 hover:bg-gray-200 hover:text-blue-950`;
     }
   };
 
