@@ -9,16 +9,12 @@ interface MenuTypes {
 const Navigation = () => {
   const menu: MenuTypes[] = [
     {
-      title: "About Us",
-      link: "/about",
-    },
-    {
       title: "Features",
-      link: "/about",
+      link: "#features",
     },
     {
       title: "Contact Us",
-      link: "/about",
+      link: "#contact",
     },
   ];
 
@@ -30,10 +26,12 @@ const Navigation = () => {
         </a>
       </div>
       <div>
-        <ul className='flex gap-12 text-base font-medium'>
+        <ul className='flex gap-12 text-base font-medium '>
           {menu.map((item) => (
             <a href={item.link}>
-              <li className='hover:text-gray-600'>{item.title}</li>
+              <li className='hover:text-gray-500 transition-all duration-300'>
+                {item.title}
+              </li>
             </a>
           ))}
         </ul>

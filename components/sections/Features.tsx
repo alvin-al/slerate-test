@@ -41,7 +41,10 @@ const featuresData: FeaturesDataType[] = [
 
 const Features = () => {
   return (
-    <div className='px-48 flex items-center flex-col mb-56'>
+    <div
+      className='px-48 flex items-center flex-col mb-56 scroll-mt-24'
+      id='features'
+    >
       <div className='font-semibold text-gray-600 mb-4'>Our Program</div>
       <div className='font-semibold text-3xl text-center mb-12'>
         Building Your <br /> Modern Growth Foundation

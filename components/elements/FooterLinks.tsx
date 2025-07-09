@@ -9,7 +9,7 @@ export const FooterLinksContent = ({
 }: FooterLinksContentTypes) => {
   return (
     <>
-      <li className='text-gray-300 hover:text-white w-fit'>
+      <li className='text-gray-400 hover:text-white w-fit transition-all duration-300'>
         <a href={link}>{children}</a>
       </li>
     </>

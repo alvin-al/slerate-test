@@ -4,9 +4,8 @@ import FooterLinks, { FooterLinksContent } from "../elements/FooterLinks";
 const menuList = {
   title: "Menu",
   list: [
-    { label: "About us", link: "/" },
-    { label: "Features", link: "/" },
-    { label: "Contact", link: "/" },
+    { label: "Features", link: "#features" },
+    { label: "Contact", link: "#contact" },
   ],
 };
 

@@ -3,7 +3,7 @@ import CTAImage from "../../src/assets/CTA.png";
 
 const CTASection = () => {
   return (
-    <div className='px-48 mb-48'>
+    <div className='px-48 mb-48 scroll-mt-48' id='contact'>
       <div className='grid grid-cols-2 bg-amber-200  rounded-2xl'>
         <div className='p-16 h-full'>
           <div>

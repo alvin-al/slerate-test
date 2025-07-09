@@ -40,7 +40,7 @@ interface FeaturesCTATypes {
 
 export const FeaturesCTA = ({ children, link }: FeaturesCTATypes) => {
   return (
-    <div className='underline hover:text-gray-600 mt-auto w-fit'>
+    <div className='underline hover:text-gray-500 mt-auto w-fit transition-all duration-300'>
       <a href={link}>{children}</a>
     </div>
   );
